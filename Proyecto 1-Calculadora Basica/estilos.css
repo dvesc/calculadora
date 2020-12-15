@@ -1,0 +1,70 @@
+body{
+    background: #ebebeb;
+    font-family: sans-serif;
+}
+.calculadora {
+    border-radius: 10px;
+    background: #d8d8d8;
+    margin: auto;
+    width: 50%;
+}
+.barraDeOperaciones{
+   padding-inline-end: 10px;
+   text-align: end;
+   font-size: 30px;
+   border: solid;
+   height: 60px;
+   margin: auto;
+   width: 97.3%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+ 
+}
+table td :hover {
+    opacity: .8;
+}
+
+table td :active {
+    opacity: .9;
+}
+table td input :visited {
+    border: none;
+}
+th, td {
+    padding: 0;
+   text-align: center;
+   width: 12%;
+   height: 34%;
+}
+.operadores{
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 10%;
+    background: #a0a0a0;
+    border: none;
+    width: 100%;
+}
+
+
+
+.numeros{
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 10%;
+    background: #222;
+    border: none;
+    width: 100%;
+}
+
+
+.delete{
+    color: whitesmoke;
+    font-size: 25.5px;
+    padding: 10%;
+    background: rgb(206, 115, 115);
+    border: none;
+    width: 100%;
+}
+

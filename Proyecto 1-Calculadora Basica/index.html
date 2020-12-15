@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Mi calculadora</title>
+  </head>
+
+  <body>
+
+    <section class="calculadora">
+      <!--"onekeyup" es un evento, y aqui lo uso como un evento tipo atributo -->
+      <input type="text" id = "barraDeOperaciones" class="barraDeOperaciones" value="" onkeyup="this.value= caracteresAceptados(this.value)">
+      <table class=".tabla">
+          <tr>
+            <td><input type="button" id="num7" class = "numeros" value="7"></td>
+            <td><input type="button" id="num8" class = "numeros" value="8"></td>
+            <td><input type="button" id="num9" class = "numeros" value="9"></td>
+            <td><input type="button" id="opDivision" class="operadores" value="÷"></td>
+            <td><input type="button" id="opElimina" class="delete" value="🔙"></td>
+
+          </tr>
+          <tr>
+            <td><input type="button" id="num4" class = "numeros" value="4"></td>
+            <td><input type="button" id="num5" class = "numeros" value="5"></td>
+            <td><input type="button" id="num6" class = "numeros" value="6"></td>
+            <td><input type="button" id="opMultiplicacion" class="operadores" value="x"></td>
+            <td><input type="button" id="opPi" class="operadores" value="π"></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="num1" class = "numeros" value="1"></td>
+            <td><input type="button" id="num2" class = "numeros" value="2"></td>
+            <td><input type="button" id="num3" class = "numeros" value="3"></td>
+            <td><input type="button" id="opResta"  class="operadores" value="-"></td>
+            <td><input type="button" id="opPotencia" class="operadores" value="^"></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="opDecimal" class = "numeros" value="."></td>
+            <td><input type="button" id="num0" class = "numeros" value="0"></td>
+            <td><input type="button" id="opIgual" class = "numeros" value="="></td>
+            <td><input type="button" id="opSuma"  class="operadores" value="+"></td>
+          </tr>
+      </table>
+    </section>
+
+    <script src="./trasbambalinas.js"></script>
+  </body>
+</html>
+
+
